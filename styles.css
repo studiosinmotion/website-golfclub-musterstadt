@@ -115,9 +115,9 @@ img {
 /* Header */
 .header {
     background-color: var(--white);
-    padding: 15px 0;
+    padding: 10px 0;
+    /* Reduced vertical padding */
     border-bottom: 3px solid var(--green-action);
-    /* Green line at bottom */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -127,6 +127,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
+    /* Add gap between major sections */
 }
 
 .logo {
@@ -136,23 +138,53 @@ img {
     color: #333;
     font-family: var(--font-heading);
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    /* Slightly smaller */
     line-height: 1.2;
     text-transform: uppercase;
     letter-spacing: 1px;
+    flex-shrink: 0;
+    /* Prevent logo from shrinking */
 }
 
 .main-nav ul {
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    /* Reduce gap to fit on screen */
+    list-style: none;
+    /* Ensure no bullets */
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.main-nav li {
+    display: flex;
+    align-items: center;
+}
+
+/* Add custom separator dot if desired, but cleanly */
+.main-nav li:not(:last-child)::after {
+    content: '•';
+    color: #ccc;
+    font-size: 1rem;
+    margin-left: 20px;
+    /* Half of gap */
+    display: none;
+    /* Hide for now to be safe, or just rely on gap */
 }
 
 .main-nav a {
     font-family: var(--font-heading);
-    font-weight: 400;
-    font-size: 0.95rem;
+    font-weight: 500;
+    /* Slightly bolder for readability */
+    font-size: 0.85rem;
+    /* Smaller font to fit uppercase */
     color: #333;
     text-transform: uppercase;
+    white-space: nowrap;
+    /* Prevent wrapping */
+    display: inline-block;
 }
 
 .main-nav a:hover {
@@ -161,7 +193,15 @@ img {
 
 .header-cta {
     display: flex;
-    gap: 15px;
+    gap: 10px;
+    flex-shrink: 0;
+    /* Prevent buttons from shrinking/wrapping */
+}
+
+.header-cta .btn {
+    padding: 8px 15px;
+    /* Smaller header buttons */
+    font-size: 0.8rem;
 }
 
 .mobile-menu-toggle {
@@ -169,7 +209,7 @@ img {
     background: none;
     border: none;
     flex-direction: column;
-    gap: 5px;
+    gap: 4px;
     cursor: pointer;
 }
 
