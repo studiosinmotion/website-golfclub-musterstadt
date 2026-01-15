@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golfclub Musterstadt - Exklusives Golfvergnügen</title>
+    <meta name="description"
+        content="Erleben Sie Golf in seiner schönsten Form im Golfclub Musterstadt. 18-Loch Meisterschaftsplatz, Trainingskurse und exklusives Ambiente.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Lato:wght@300;400&display=swap"
+        rel="stylesheet">
+    <!-- Using inline SVGs for better control, no external font kit needed -->
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V15H13V17ZM13 13H11V7H13V13Z"
+                            fill="#7DAF18" /> <!-- Modern stylized G/Ball placeholder -->
+                        <circle cx="12" cy="12" r="8" stroke="#7DAF18" stroke-width="2" />
+                    </svg>
+                </span>
+                <span class="logo-text">Golfclub<br>Musterstadt</span>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">DER CLUB</a></li>
+                    <li><a href="#">DER PLATZ</a></li>
+                    <li><a href="#">GOLFSCHULE</a></li>
+                    <li><a href="#">GASTRONOMIE</a></li>
+                    <li><a href="#">TURNIERE</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="#" class="btn btn-red">STARTZEIT BUCHEN</a>
+                <a href="#" class="btn btn-green">MITGLIED WERDEN</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Menü öffnen">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg">
+                <img src="assets/hero.png" alt="Malerischer Blick über den Golfplatz bei Sonnenaufgang">
+                <div class="hero-overlay"></div> <!-- Added for better text contrast/tint -->
+            </div>
+            <div class="hero-content">
+                <h1>WILKOMMEN IM<br>GOLFCLUB MUSTERSTADT</h1>
+                <p>Erleben Sie Tradition, Sportlichkeit und Natur in perfekter Harmonie.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-red btn-large">STARTZEIT BUCHEN</a>
+                    <a href="#" class="btn btn-green btn-large">MITGLIED WERDEN</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-desk">
+            <div class="container">
+                <div class="service-grid">
+                    <a href="#" class="service-item">
+                        <div class="icon-circle">
+                            <svg viewBox="0 0 24 24" fill="white" width="32" height="32">
+                                <path
+                                    d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V19H7v2h10v-2h-4v-3.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z" />
+                            </svg>
+                        </div>
+                        <h3>TURNIERKALENDER</h3>
+                    </a>
+                    <a href="#" class="service-item">
+                        <div class="icon-circle">
+                            <svg viewBox="0 0 24 24" fill="white" width="32" height="32">
+                                <path
+                                    d="M20 6h-2.18c.11-.31.18-.65.18-1 0-1.66-1.34-3-3-3-1.66 0-3 1.34-3 3 0 .35.07.69.18 1H10.82c.11-.31.18-.65.18-1 0-1.66-1.34-3-3-3-1.66 0-3 1.34-3 3 0 .35.07.69.18 1H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-15 1c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm10 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1z" />
+                            </svg>
+                        </div>
+                        <h3>GREENFEE</h3>
+                    </a>
+                    <a href="#" class="service-item">
+                        <div class="icon-circle">
+                            <svg viewBox="0 0 24 24" fill="white" width="32" height="32">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z" />
+                            </svg>
+                        </div>
+                        <h3>PRO STUNDEN</h3>
+                    </a>
+                    <a href="#" class="service-item">
+                        <div class="icon-circle">
+                            <svg viewBox="0 0 24 24" fill="white" width="32" height="32">
+                                <path
+                                    d="M9 11.75c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zm6 0c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-.29.02-.58.05-.86 2.36-1.05 4.23-2.98 5.21-5.37C11.07 8.33 14.05 10 17.42 10c.78 0 1.53-.09 2.25-.26.21 2.35-.47 4.75-2.02 6.62-1.27 1.53-3.21 2.51-5.65 2.64z" />
+                            </svg>
+                        </div>
+                        <h3>EINSTEIGER KURSE</h3>
+                    </a>
+                    <a href="#" class="service-item">
+                        <div class="icon-circle">
+                            <svg viewBox="0 0 24 24" fill="white" width="32" height="32">
+                                <path
+                                    d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.43-5.15-3.75-6.58-6.59l1.97-1.57c.26-.26.35-.65.24-1C9.13 6.69 8.94 5.5 8.94 4.28c0-.55-.45-1-1-1H4.37c-.55 0-1 .45-1 1 14.62 14.62 0 0 0 15.63 15.63.55 0 1-.45 1-1v-3.53c0-.55-.45-1-1-1z" />
+                            </svg>
+                        </div>
+                        <h3>KONTAKT</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="der-platz">
+            <div class="container grid-2-col">
+                <div class="content-text">
+                    <h2>Ein Meisterschaftsplatz der Extraklasse</h2>
+                    <p>Unser 18-Loch Platz bietet sowohl für ambitionierte Sportler als auch für Genussgolfer die
+                        perfekte Herausforderung. Eingebettet in die sanften Hügel des Umlands, genießen Sie bei uns
+                        Ruhe und Natur pur.</p>
+                    <p>Faireways in bestem Zustand, schnelle Grüns und strategisch platzierte Bunker machen jede Runde
+                        zu einem Erlebnis.</p>
+                    <a href="#" class="text-link">Mehr über den Platz erfahren &rarr;</a>
+                </div>
+                <div class="content-image reveal-on-scroll">
+                    <img src="assets/intro.png" alt="Detailansicht des Grüns mit Golfball">
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section bg-light" id="einsteiger">
+            <div class="container grid-2-col reverse-mobile">
+                <div class="content-image reveal-on-scroll">
+                    <img src="assets/beginner.png" alt="Golflehrer gibt Anleitung auf der Driving Range">
+                </div>
+                <div class="content-text">
+                    <h2>Der perfekte Einstieg</h2>
+                    <p>Golf ist ein Sport für alle Generationen. In unserer Golfschule begleiten wir Sie von den ersten
+                        Schwüngen bis zur Platzreife.</p>
+                    <ul class="feature-list">
+                        <li>Schnupperkurse jeden Samstag</li>
+                        <li>Individuelles Training mit PGA Pros</li>
+                        <li>Moderne Trainingsanlagen inkl. Trackman</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Kursprogramm ansehen</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Aktuelles aus dem Club</h2>
+                    <a href="#" class="text-link">Alle News &rarr;</a>
+                </div>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <span class="date">12. Mai 2026</span>
+                        <h3>Eröffnungsturnier der Saison</h3>
+                        <p>Ein voller Erfolg mit über 100 Teilnehmern und strahlendem Sonnenschein.</p>
+                    </article>
+                    <article class="news-card">
+                        <span class="date">05. Mai 2026</span>
+                        <h3>Neue Gastronomie unter Leitung von Marco Rosso</h3>
+                        <p>Genießen Sie italienische Köstlichkeiten auf unserer Sonnenterrasse.</p>
+                    </article>
+                    <article class="news-card">
+                        <span class="date">28. April 2026</span>
+                        <h3>Platzpflege: Aerifizieren der Grüns</h3>
+                        <p>Vom 02.05. bis 03.05. führen wir wichtige Pflegemaßnahmen durch.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="container">
+                <h2>Impressionen</h2>
+                <div class="slider-container">
+                    <div class="slider-wrapper">
+                        <div class="slide"><img src="assets/gallery_1.png" alt="See am Golfplatz"></div>
+                        <div class="slide"><img src="assets/gallery_2.png" alt="Sandbunker Herausforderung"></div>
+                        <div class="slide"><img src="assets/gallery_3.png" alt="Terrasse bei Sonnenuntergang"></div>
+                    </div>
+                    <button class="slider-btn prev" aria-label="Vorheriges Bild">&lt;</button>
+                    <button class="slider-btn next" aria-label="Nächstes Bild">&gt;</button>
+                </div>
+                <div class="center-content">
+                    <a href="#" class="btn btn-outline">Zur vollständigen Galerie</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo">Golfclub<br>Musterstadt</div>
+                <address>
+                    Am Golfplatz 1<br>
+                    12345 Musterstadt<br>
+                    Deutschland
+                </address>
+                <div class="contact-links">
+                    <a href="tel:+49123456789">0123 / 456 789</a>
+                    <a href="mailto:info@golfclub-musterstadt.de">info@golfclub-musterstadt.de</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Informationen</h4>
+                <ul>
+                    <li><a href="#">Anfahrt & Parken</a></li>
+                    <li><a href="#">Öffnungszeiten</a></li>
+                    <li><a href="#">Greenfee Preise</a></li>
+                    <li><a href="#">Mitgliedschaftsmodelle</a></li>
+                    <li><a href="#">Platzregeln</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Rechtliches</h4>
+                <ul>
+                    <li><a href="#">Impressum</a></li>
+                    <li><a href="#">Datenschutz</a></li>
+                    <li><a href="#">AGB</a></li>
+                </ul>
+            </div>
+            <div class="footer-col newsletter">
+                <h4>Newsletter</h4>
+                <p>Bleiben Sie informiert über Turniere und Events.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Ihre E-Mail Adresse" aria-label="E-Mail für Newsletter">
+                    <button type="submit">Anmelden</button>
+                </form>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Golfclub Musterstadt e.V. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
